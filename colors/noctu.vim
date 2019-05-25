@@ -5,7 +5,7 @@
 " --------------------------------------------------------------
 
 " Scheme setup {{{
-set background=dark
+" set background=dark
 hi! clear
 
 if exists("syntax_on")
@@ -19,8 +19,8 @@ let g:colors_name = "noctu"
 hi Normal              ctermfg=7
 hi Cursor              ctermfg=7     ctermbg=1
 hi CursorLine          ctermbg=0     cterm=NONE
-hi MatchParen          ctermfg=7     ctermbg=NONE  cterm=underline
-hi Pmenu               ctermfg=15    ctermbg=0
+hi MatchParen          ctermfg=7     ctermbg=NONE  cterm=NONE
+hi Pmenu               ctermfg=15    ctermbg=8
 hi PmenuThumb          ctermbg=7
 hi PmenuSBar           ctermbg=8
 hi PmenuSel            ctermfg=0     ctermbg=4
@@ -35,8 +35,8 @@ hi CursorLineNr        ctermfg=11    ctermbg=0
 hi Visual              ctermfg=0     ctermbg=12
 hi IncSearch           ctermfg=0     ctermbg=13    cterm=NONE
 hi Search              ctermfg=0     ctermbg=10
-hi StatusLine          ctermfg=7     ctermbg=0     cterm=bold
-hi StatusLineNC        ctermfg=8     ctermbg=0     cterm=bold
+hi StatusLine          ctermfg=0     ctermbg=2     cterm=bold
+hi StatusLineNC        ctermfg=0     ctermbg=2     cterm=bold
 hi VertSplit           ctermfg=0     ctermbg=0     cterm=NONE
 hi TabLine             ctermfg=8     ctermbg=0     cterm=NONE
 hi TabLineSel          ctermfg=7     ctermbg=0
@@ -44,11 +44,11 @@ hi Folded              ctermfg=6     ctermbg=0     cterm=bold
 hi Conceal             ctermfg=6     ctermbg=NONE
 hi Directory           ctermfg=12
 hi Title               ctermfg=3     cterm=bold
-hi ErrorMsg            ctermfg=15    ctermbg=1
-hi DiffAdd             ctermfg=0     ctermbg=2
-hi DiffChange          ctermfg=0     ctermbg=3
-hi DiffDelete          ctermfg=0     ctermbg=1
-hi DiffText            ctermfg=0     ctermbg=11    cterm=bold
+hi ErrorMsg            ctermfg=0     ctermbg=0
+hi DiffAdd             ctermfg=2     ctermbg=0
+hi DiffChange          ctermfg=3     ctermbg=0
+hi DiffDelete          ctermfg=1     ctermbg=0
+hi DiffText            ctermfg=11    ctermbg=0    cterm=bold
 hi User1               ctermfg=1     ctermbg=0
 hi User2               ctermfg=4     ctermbg=0
 hi User3               ctermfg=2     ctermbg=0
